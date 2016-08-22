@@ -31,7 +31,7 @@ extensions = ['sphinx.ext.mathjax', 'sphinx.ext.ifconfig']
 templates_path = ['_templates']
 
 # The suffix of source filenames.
-source_suffix = '.rst'
+# source_suffix = '.rst'
 
 # The encoding of source files.
 #source_encoding = 'utf-8-sig'
@@ -283,3 +283,14 @@ epub_copyright = u'2013, Platypus, LLC'
 
 # Allow duplicate toc entries.
 #epub_tocdup = True
+
+##################################
+# Markdown support
+from recommonmark.parser import CommonMarkParser
+
+# The suffix of source filenames.
+source_suffix = ['.rst', '.md']
+
+source_parsers = {
+	'.md': CommonMarkParser,
+}
