@@ -1,5 +1,5 @@
 Equipment
-======
+=========
 
 This section will provide detailed explanations of the various pieces of equipment that are used with the boat.
 
@@ -20,7 +20,7 @@ This section will provide detailed explanations of the various pieces of equipme
 2. The basic charger we typically use.
 3. More advanced chargers.
 4. Maximum recommended charging current.
-5. Charge time.
+5. Charge time. 
 
 ## Boat Deck/Hull
 Vacuum-formed ABS. Tough, capable of sustaining significant hull damage and remains intact. Space between deck and hull contains buoyant foam.

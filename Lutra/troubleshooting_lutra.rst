@@ -1,10 +1,9 @@
 Troubleshooting
-======
+===============
 
-![alt text][joke]
-
-[joke]: https://media.giphy.com/media/13luqPVTn4NqXS/giphy.gif
-
+.. image:: https://media.giphy.com/media/13luqPVTn4NqXS/giphy.gif
+|
+.. image:: images/insert_battery_big.gif
 
 ## brainstorming list of issues:
 * boat goes in circles (broken prop, caught shaft, stripped belt)

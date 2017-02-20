@@ -1,5 +1,5 @@
-Lutra Quick Start Guide
-======
+Quick Start
+===========
 
 Following this guide will help you get the boat running and into the water as quickly as possible. It is not meant to provide detailed explanations. For that, look through the other sections of the manual.
 
@@ -24,9 +24,9 @@ the quick start guide
 6. Launch the Platypus tablet and phone applications.
 7. Elevate the boat such that the props are off the ground and can spin without touching anything.
 8. Plug in any sensors to the appropriate 8-pin connectors on the top of the eboard.
-9. Plug the battery into the boat and hit the white button on the eboard. The LED should blink red. If the LED doesn't light up, press the white button twice quickly to cycle the eboard power. The LED should then blink red.
+9. Plug the battery into the boat and hit the white button on the eboard. The LED should blink red. If the LED doesn't light up, press the white button twice quickly to cycle the eboard power. The LED should then blink red.![alt text][insert_battery]
 10. Turning the power on to the eboard will cause the wifi router in the boat 
-to boot up. After about a minute, a WiFi network (typically with "Platypus" in the name) will appear to wireless devices. Connect the tablet and the phone to the boat's network. [wifi passwords?]
+to boot up. After about a minute, a WiFi network (typically with "Platypus" in the name) will appear to wireless devices. Connect the tablet and the phone to the boat's network. [wifi passwords?] 
 11. If you have a Lowrance unit, turn it on now and set up the options. Keep in mind that the Lowrance requires the boat to be powered at all times, or it will shut off.
 12. Plug the phone into the arduino on the eboard with the USB cable. If the phone application is on the screen, the LED should blink green.
 13. Press and briefly hold the big red button on the phone screen to start the application. The ESC's should beep and the LED should turn a solid green. The button on the phone should also turn green.
@@ -56,3 +56,6 @@ to boot up. After about a minute, a WiFi network (typically with "Platypus" in t
 36. Air out the compartments and remove pressure from the o-ring.
 37. Remove the battery. If you plan to use the boat again in the near future, charge the battery.
 38. Charge the tablet and phone. [Need them to connect either to internet to get usage info?]
+
+
+[insert_battery]: images/insert_battery_big.gif
