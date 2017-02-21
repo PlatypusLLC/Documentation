@@ -1,14 +1,176 @@
 Quick Start
 ===========
 
-Following this guide will help you get the boat running and into the water as quickly as possible. It is not meant to provide detailed explanations. For that, look through the other sections of the manual.
+Following this guide will help you get the boat running and into the water as quickly as possible. 
+It is not meant to provide detailed explanations. For that, look through the other sections of the manual.
 
-## brainstorming the outline
 
-start with quick safety briefing
-1. typical LiPo safety (link to better source?)
-2. keep hands clear of props and fan
-3. high voltages, don't fiddle around with wiring - user can access wiring, so they need to be safe
+Safety
+------
+
+Battery
+^^^^^^^
+
+The Lutra uses a large Lithium Polymer (LiPo) battery. Any large battery can be an electric shock and fire hazard
+if it is not handled with proper care.
+
+Do not tamper with the internal wiring in the boat aside from inserting and removing the battery.
+
+LiPo batteries may become a fire hazard if they become "puffy" or are struck with significant force.
+A LiPo battery is normally stiff - if you squeeze it, it feels stiff, and it does not feel puffy.
+If you have run the battery below a recommended minimum voltage, it can expand, becoming puffy.
+If this occurs, do NOT charge or reuse the battery! 
+Store it in a flame resistant area (a LiPo storage bag is recommended!).
+It is very unlikely that it will catch fire by itself, but it can catch fire if struck with enough force.
+
+To prevent a "puffy" battery, do not drain the battery below a safe value. The green 4-cell 16,000 mAh
+batteries should not be drained below 14 V. Make sure the battery is fully charged before you deploy the boat
+and keep an eye on the voltage displayed on the tablet during deployment.
+
+Propellers
+^^^^^^^^^^
+
+The Lutra uses fairly powerful motors to spin propellers. While we use plastic propellers to decrease the damage
+they might cause, spinning plastic propellers are still a hazard. While on land, 
+always make sure the propellers are clear. Never touch the propellers while the boat is turned on.
+
+
+Setting Up
+----------
+
+Learn how to assemble the equipment you just received.
+
+Lutra Prop
+^^^^^^^^^^
+
+Take out phone, charge phone. 
+Attach USB-C adapter to USB-female to USB-mini adapter. (or do we now have a direct USB-mini to USB-C cable now?)
+Ziptie down USB cable (should already be done, right?)
+Make sure velcro is on back of phone and front wall of front compartment.
+
+Attach propellers if not attached.
+
+Plug in battery, turn on boat, listen for pump
+Make sure that water is flowing in the cooling tubes in the back compartment.
+
+Lutra Air
+^^^^^^^^^
+
+Deal with USB cables the same way as Lutra prop.
+
+Attach fan, plug in servo cable to s0 socket, plug three-pin in next to fan.
+
+Sensors
+^^^^^^^
+
+Sensor cables are meant to pass through the vertical tube in the front of the boat.
+Sensors are mounted on the bottom of the boat.
+
+Small cylindrical sensors are held down with the acrylic bracket. 
+Remove the bolts and bracket, place the sensors, then replace the bracket and bolts.
+
+
+Lowrance HDS
+""""""""""""
+
+Install transducer and head unit. Plug in power cable to sX socket. 
+Be careful not to crush the transducer that will stick out.
+When you deploy the boat, make sure to straighten the transducer so it is parallel with the boat hull again.
+
+Before Deploying
+----------------
+
+Here are the steps you should take the before deploying the boat.
+|
+* Charge LiPo batteries
+.. image:: ../images/charge_battery.gif
+|
+* Charge phone and tablet
+* Download maps in table app (navigate to area of interest, zoom in and out in vector and satellite style to cache the map data)
+* Create and upload any sets of waypoints if you don't want to create them in the tablet app during deployment
+  (Recommended for complex waterway geography, such as a winding stream or ponds with many small branches)
+
+Starting and Launching the Boat
+-------------------------------
+|
+.. image:: images/insert_battery_big.gif
+|
+Controlling the Boat
+--------------------
+
+Two ways to control the boat, manually drive it and use autonomy to follow a series of waypoints.
+You can create polygonal regions to automatically generate waypoints that completely cover an area of interest.
+
+Manual Tele-Operation
+^^^^^^^^^^^^^^^^^^^^^
+
+We recommend using the autonomy whenever possible. This requires a GPS lock. If the boat is deployed
+in an urban environment, it may be difficult to get a GPS lock (or multi-pathing may occur, causing the
+GPS lock to be totally incorrect and misleading). In a narrow body of water like a stream, even if you
+have a GPS lock, the possible error in the position could cause the boat to drive into the shore.
+
+There are two ways to tele-operate the boat.
+
+Tablet Thumb-Stick
+""""""""""""""""""
+
+Recommend placing thumb down in the center and rolling it rather than sliding around.
+That way you can easily return to center and apply smaller changes.
+
+Radio Control Module
+""""""""""""""""""""
+
+Requires extra equipment.
+RC module plugs in like a sensor. Comes with a large RC transmitter.
+Flip the override switch to take control away from the phone in the boat.
+
+Waypoints
+^^^^^^^^^
+
+The boat will move in a more-or-less straight line from its current position to the next waypoint.
+Once it arrives in the proximity of a waypoint, it either stops (if it has no more waypoints)
+or it moves on toward the next waypoint.
+
+Regions
+^^^^^^^
+
+Recommended for covering an area of interest.
+Instead of manually setting up every single waypoint, select a polygon that covers an area.
+The waypoints that represent a path through that area will be automatically generated for you.
+When you press and hold, instead of a waypoint, you lay down a corner (vertex) of the polygon.
+Choose transect width (distance between parallel paths, units are meters) and hit the re-generate button.
+Lawnmower is always aligned with cardinal directions.
+Spiral is recommended.
+Polygons are always convex - try making a U-shape of vertices and notice how the app won't let you.
+You will need to break up a non-convex region into separate chunks so that each one is convex.
+
+Alternatively you could manually prepare
+
+Saving and Loading Waypoints
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+[Show using the save and load waypoints buttons, naming a set of waypoints etc.]
+
+[add the stuff that you put in the email to Lasse for manually creating and uploading waypoints]
+
+Extracting Data
+---------------
+
+Pulling logs off the phone.
+Uploading logs to the Platypus website?
+Pulling data off of Lowrance HDS sdcard and 
+
+Storing the Boat
+----------------
+
+Clean off outside of boat. Dry it off.
+Open up compartments, let it air out. Avoid getting any water droplets inside.
+
+
+
+|
+|
+|
 
 quick screenshots (<= 1 page)
 1. the boat

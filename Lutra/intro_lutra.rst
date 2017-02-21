@@ -1,8 +1,6 @@
 Guide to the Platypus Lutra Platform
 =====================================
 
-This HTML document serves as the detailed user manual for the Lutra platform.
-
 .. toctree::
    :maxdepth: 2
 
